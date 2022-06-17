@@ -1,0 +1,29 @@
+.flexCoitener:last-child{ margin: 4em; }
+html { height: 400px; }
+body { margin: 0; padding: 0; height: 400px;}
+div { height: 50px; width: 50px; } 
+div:nth-child(1) { background-color: red; width: 50px; height: 50px; }
+div:nth-child(2) { background-color: green; width: 50px; height: 50px; }
+div:nth-child(3) { background-color: purple; width: 50px; height: 50px; }
+div:nth-child(4) { background-color: yellow; width: 50px; height: 50px; }
+div:nth-child(5) { background-color: silver; width: 50px; height: 50px; }
+div:nth-child(6) { background-color: black; width: 50px; height: 50px; }
+div:nth-child(7) { background-color: orange; width: 50px; height: 50px; }
+div:nth-child(8) { background-color: pink; width: 50px; height: 50px; }
+/* fim setup */
+ 
+.flexCoitener {
+    display: flex;
+    /* justify-content: space-between; */ 
+    /* flex-direction: row;  */
+    align-items: inherit;
+}
+
+.flexItens {
+    flex-grow: 0; 
+}
+
+/* .primeiro {
+    flex-grow: 2; 
+    flex-shrink: 2;
+}  */
